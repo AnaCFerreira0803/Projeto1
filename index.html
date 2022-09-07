@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site para testes no git e no github">
+    <meta name="keywords" content="git, github">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Git & Github</title>
+</head>
+
+<body>
+    <section class="main">
+
+        <h1 class="title">IMC (Índice de Massa Corporal)</h1>
+        <p class="subtitle">Verifique seu IMC:</p>
+
+        <form class="form-imc" id="form" action="">
+            <input id="peso" name="peso" type="tel" placeholder="Peso (Kg)">
+            <input id="altura" name="altura" type="tel" placeholder="Altura (m)">
+
+            <div class="container-select-input">
+                <select name="faixa-etaria" id="faixa-etaria" required>
+                    <option value="" disabled selected>Faixa etária</option>
+                    <option value="adulto">Adulto</option>
+                    <option value="idoso">Idoso</option>
+                </select>
+            </div>
+            <button class="submit-input" type="button" value="Enviar" onclick="handleForm()">
+                Enviar
+            </button>
+        </form>
+
+        <!-- Resposta: -->
+        <div id="response">
+
+        </div>
+    </section>
+    <script src="script/script.js"></script>
+</body>
+</html>
