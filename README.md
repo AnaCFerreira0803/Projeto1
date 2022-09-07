@@ -1,3 +1,3 @@
 # Projeto1
-Meu primeiro projeto teste
+Meu primeiro projeto com GitHub
 Clonando o repositorio remoto
